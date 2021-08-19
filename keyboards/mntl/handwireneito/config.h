@@ -18,7 +18,7 @@
 
 /* USB Device descriptor parameter */
 #define VENDOR_ID       0x1337 // "Maximilian Jalea"
-#define PRODUCT_ID      0xB44C // "Neito"
+#define PRODUCT_ID      0xB44D // "Neito Handwire"
 #define DEVICE_VER      0x0001
 #define MANUFACTURER    Maximilian Jalea
 #define PRODUCT         Neito Handwire
@@ -26,21 +26,21 @@
 #define MATRIX_ROWS 5
 #define MATRIX_COLS 14
 #define MATRIX_ROW_PINS { B7, D5, C7, F1, F0}
-#define MATRIX_COL_PINS { D4, C6, D7, C6, B4, B5, F4, F5, F6, F7, B1, B3, B2, B6}
-
+#define MATRIX_COL_PINS { D4, C6, D7, E6, B4, B5, F4, F5, F6, F7, B1, B3, B2, B6}
 #define DIODE_DIRECTION COL2ROW
+#define UNUSED_PINS {D3, D2, D1, D0, B0}
+
 /*#define ENCODERS_PAD_A { B7 }
 #define ENCODERS_PAD_B { B0 }
 #define ENCODER_RESOLUTION 4*/
-#define UNUSED_PINS
 
 //#define LED_CAPS_LOCK_PIN B6
-#define BACKLIGHT_ON_STATE  0
+//#define BACKLIGHT_ON_STATE  0
 
 //#define BACKLIGHT_PIN B5
 //#define BACKLIGHT_LEVELS 5
 
-#define GRAVE_ESC_CTRL_OVERRIDE
+//#define GRAVE_ESC_CTRL_OVERRIDE
 
 /* RGB Light Configuration */
 /*
