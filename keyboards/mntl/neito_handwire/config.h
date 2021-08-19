@@ -1,4 +1,4 @@
-/* Copyright 2021 Oliver Granlund
+/* Copyright 2021 Oliver Granlund and Maximilian Jalea
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -17,7 +17,7 @@
 #include "config_common.h"
 
 /* USB Device descriptor parameter */
-#define VENDOR_ID       0xB9F7 // "Oliver Granlund"
+#define VENDOR_ID       0x1337 // "Maximilian Jalea"
 #define PRODUCT_ID      0xB44C // "Neito"
 #define DEVICE_VER      0x0001
 #define MANUFACTURER    Maximilian Jalea
@@ -25,8 +25,8 @@
 
 #define MATRIX_ROWS 5
 #define MATRIX_COLS 14
-#define MATRIX_ROW_PINS { E6, F0, F5, F6, C7, C6, B4, D7, D6, D4 }
-#define MATRIX_COL_PINS { F4, F1, F7, B2, D1, D2, B3, B1 }
+#define MATRIX_ROW_PINS { B7, D5, C7, F1, F0}
+#define MATRIX_COL_PINS { D4, C6, D7, C6, B4, B5, F4, F5, F6, F7, B1, B3, B2, B6}
 
 #define DIODE_DIRECTION COL2ROW
 /*#define ENCODERS_PAD_A { B7 }
